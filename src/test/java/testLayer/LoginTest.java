@@ -44,9 +44,10 @@ public class LoginTest extends BaseClass {
 		}
 		else {
 			System.out.println("User was not landed on his account succesfully");
+			
 		}
 		
-		
+		// After Login - User selects item and add to cart
 		cart.ClickOnCategory(); 
 		cart.SelectLaptop(); 
 		Thread.sleep(5000);
